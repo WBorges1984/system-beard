@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+}
+
+.container-dashboard {
+    display: flex;
+    flex-direction: row;
+    width: 100svw;
+    height: 100svh;
+}
+
+.menu-left {
+    background-color: rgb(34, 45, 50);
+    width: 17%;
+    height: 100%;
+}
+
+.name-company {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 170, 209);
+    height: 8%;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100px;
+}
+
+.menu li {
+    color: white;
+    margin: 20px 0px 0px 20px;
+    list-style: none;
+}
+
+.container-conteudo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 239, 245);
+    width: 100%;
+    height: 100%;
+}
+
+.top-status {
+    background-color: rgb(31, 193, 237);
+    height: 8%;
+}
+
+.barra-info {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    padding: 10px;
+}
+
+.o1 {
+    width: 100px;
+    background-color: aqua;
+}
+
+.o2 {
+    background-color: blueviolet;
+    width: 150px;
+}
